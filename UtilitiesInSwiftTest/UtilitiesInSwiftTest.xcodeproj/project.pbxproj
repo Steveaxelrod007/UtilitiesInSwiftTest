@@ -24,6 +24,7 @@
 		AA0EF87325EEFB8F00627894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0EF87625EEFB8F00627894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA0EF87825EEFB8F00627894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0EF87F25EEFBC400627894 /* UtilitiesInSwiftPackage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = UtilitiesInSwiftPackage; path = ../UtilitiesInSwiftPackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		AA0EF85E25EEFB8E00627894 = {
 			isa = PBXGroup;
 			children = (
+				AA0EF87F25EEFBC400627894 /* UtilitiesInSwiftPackage */,
 				AA0EF86925EEFB8E00627894 /* UtilitiesInSwiftTest */,
 				AA0EF86825EEFB8E00627894 /* Products */,
 			);
