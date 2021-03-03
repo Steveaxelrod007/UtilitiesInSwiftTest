@@ -19,8 +19,8 @@
 		AA6D410A25EF084200F19997 /* CancelableClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D410225EF084200F19997 /* CancelableClosure.swift */; };
 		AA6D410B25EF084200F19997 /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D410325EF084200F19997 /* FileSystem.swift */; };
 		AA6D410C25EF084200F19997 /* NumberToWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D410425EF084200F19997 /* NumberToWords.swift */; };
-		AA6D410D25EF084200F19997 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D410525EF084200F19997 /* Phone.swift */; };
 		AA6D410E25EF084200F19997 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D410625EF084200F19997 /* UIColorExtensions.swift */; };
+		AA6D411625EF43B600F19997 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6D411525EF43B600F19997 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +38,8 @@
 		AA6D410225EF084200F19997 /* CancelableClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CancelableClosure.swift; path = ../../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/CancelableClosure.swift; sourceTree = "<group>"; };
 		AA6D410325EF084200F19997 /* FileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystem.swift; path = ../../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/FileSystem.swift; sourceTree = "<group>"; };
 		AA6D410425EF084200F19997 /* NumberToWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberToWords.swift; path = ../../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/NumberToWords.swift; sourceTree = "<group>"; };
-		AA6D410525EF084200F19997 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Phone.swift; path = ../../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/Phone.swift; sourceTree = "<group>"; };
 		AA6D410625EF084200F19997 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = ../../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/UIColorExtensions.swift; sourceTree = "<group>"; };
+		AA6D411525EF43B600F19997 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +93,9 @@
 				AA6D410325EF084200F19997 /* FileSystem.swift */,
 				AA6D40FF25EF084100F19997 /* IntExtensions.swift */,
 				AA6D410425EF084200F19997 /* NumberToWords.swift */,
-				AA6D410525EF084200F19997 /* Phone.swift */,
 				AA6D410125EF084200F19997 /* Queues.swift */,
 				AA6D410625EF084200F19997 /* UIColorExtensions.swift */,
+				AA6D411525EF43B600F19997 /* Utilities.swift */,
 			);
 			path = Package;
 			sourceTree = "<group>";
@@ -181,9 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA6D410D25EF084200F19997 /* Phone.swift in Sources */,
 				AA6D410B25EF084200F19997 /* FileSystem.swift in Sources */,
 				AA0EF86F25EEFB8E00627894 /* ViewController.swift in Sources */,
+				AA6D411625EF43B600F19997 /* Utilities.swift in Sources */,
 				AA6D410925EF084200F19997 /* Queues.swift in Sources */,
 				AA6D410725EF084200F19997 /* IntExtensions.swift in Sources */,
 				AA6D410A25EF084200F19997 /* CancelableClosure.swift in Sources */,
