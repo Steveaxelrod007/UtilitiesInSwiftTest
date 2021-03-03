@@ -52,13 +52,15 @@ class ViewController: UIViewController {
         print("Int value of color --> \(UIColor.hexFromColor(color: color))")
         print("UIColor from Int --> \(UIColor.colorWithHex(hex: UIColor.hexFromColor(color: color)))")
 
-        for intVal in [10000, 50000, 100000, 1000000, 10000000, (5280 * 1000) - 1, 5280 * 1000, 999999, 999990, 999900]
+        for intVal in [1,10000, 50000, 100000, 1000000, 10000000, (5280 * 1000) - 1, 5280 * 1000, 999999, 999990, 999900]
         {
-            print(intVal.distance())
+            let distance = intVal.distance()
+            print("\(distance.num)\(distance.designator)")
             print(intVal.fullNotation())
-            print(intVal.kmNotation())
             print("------------")
         }
+        
+        setAlert(timeDelay: 2)
     }
 
     override func viewDidLoad() {
@@ -66,14 +68,14 @@ class ViewController: UIViewController {
 
         let listOfNames = [
             AutoFillTextFieldData(name: "abc", imageUrl: "https://firebasestorage.googleapis.com/v0/b/cloudcode007.appspot.com/o/poi%2FIMG_0675.jpeg?alt=media&token=d5738e33-8f97-4f52-9e97-6f585d895a10"),
-            AutoFillTextFieldData(name: "frefreabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
-            AutoFillTextFieldData(name: "rregergabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
-            AutoFillTextFieldData(name: "agregrtegbc", imageUrl: "http://www.axelrod.net/poi.jpg"),
-            AutoFillTextFieldData(name: "etrhtrhtrgerghabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
-            AutoFillTextFieldData(name: "ztrhtrgregrrhthabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
-            AutoFillTextFieldData(name: "abtrhwdwqdtrhthabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
-            AutoFillTextFieldData(name: "iabc", imageUrl: "http://www.axelrod.net/safetynet1.PNG"),
-            AutoFillTextFieldData(name: "babtrhwdwqdtrhthabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
+//            AutoFillTextFieldData(name: "frefreabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
+//            AutoFillTextFieldData(name: "rregergabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
+//            AutoFillTextFieldData(name: "agregrtegbc", imageUrl: "http://www.axelrod.net/poi.jpg"),
+//            AutoFillTextFieldData(name: "etrhtrhtrgerghabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
+//            AutoFillTextFieldData(name: "ztrhtrgregrrhthabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
+//            AutoFillTextFieldData(name: "abtrhwdwqdtrhthabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
+//            AutoFillTextFieldData(name: "iabc", imageUrl: "http://www.axelrod.net/safetynet1.PNG"),
+//            AutoFillTextFieldData(name: "babtrhwdwqdtrhthabc", imageUrl: "http://www.axelrod.net/poi.jpg"),
         ]
 
         autoComplete = AutoFillTextField(triggers: "@+*", textF: textF, view: view, list: listOfNames, backColor: UIColor.clear)

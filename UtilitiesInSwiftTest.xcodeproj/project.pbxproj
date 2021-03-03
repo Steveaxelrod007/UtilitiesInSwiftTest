@@ -13,14 +13,14 @@
 		AA0EF87225EEFB8E00627894 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0EF87025EEFB8E00627894 /* Main.storyboard */; };
 		AA0EF87425EEFB8F00627894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0EF87325EEFB8F00627894 /* Assets.xcassets */; };
 		AA0EF87725EEFB8F00627894 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA0EF87525EEFB8F00627894 /* LaunchScreen.storyboard */; };
-		AA26610E25EF46E70041D46E /* CancelableClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26610725EF46E70041D46E /* CancelableClosure.swift */; };
-		AA26610F25EF46E70041D46E /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26610825EF46E70041D46E /* UIColorExtensions.swift */; };
-		AA26611025EF46E70041D46E /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26610925EF46E70041D46E /* FileSystem.swift */; };
-		AA26611125EF46E70041D46E /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26610A25EF46E70041D46E /* IntExtensions.swift */; };
-		AA26611225EF46E70041D46E /* NumberToWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26610B25EF46E70041D46E /* NumberToWords.swift */; };
-		AA26611325EF46E70041D46E /* AutoFillTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26610C25EF46E70041D46E /* AutoFillTextField.swift */; };
-		AA26611425EF46E70041D46E /* Queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26610D25EF46E70041D46E /* Queues.swift */; };
-		AA26611725EF475C0041D46E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26611625EF475C0041D46E /* Utilities.swift */; };
+		AA26612525EF4D060041D46E /* CancelableClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26611D25EF4D060041D46E /* CancelableClosure.swift */; };
+		AA26612725EF4D060041D46E /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26611F25EF4D060041D46E /* FileSystem.swift */; };
+		AA26612825EF4D060041D46E /* AutoFillTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26612025EF4D060041D46E /* AutoFillTextField.swift */; };
+		AA26612925EF4D060041D46E /* Queues.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26612125EF4D060041D46E /* Queues.swift */; };
+		AA26612A25EF4D060041D46E /* NumberToWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26612225EF4D060041D46E /* NumberToWords.swift */; };
+		AA26612B25EF4D060041D46E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26612325EF4D060041D46E /* Utilities.swift */; };
+		AA26612F25EF4D620041D46E /* Int-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26612E25EF4D620041D46E /* Int-Extension.swift */; };
+		AA26613225EF51DB0041D46E /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26613125EF51DB0041D46E /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +32,14 @@
 		AA0EF87325EEFB8F00627894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA0EF87625EEFB8F00627894 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA0EF87825EEFB8F00627894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA26610725EF46E70041D46E /* CancelableClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CancelableClosure.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/CancelableClosure.swift; sourceTree = "<group>"; };
-		AA26610825EF46E70041D46E /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtensions.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/UIColorExtensions.swift; sourceTree = "<group>"; };
-		AA26610925EF46E70041D46E /* FileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystem.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/FileSystem.swift; sourceTree = "<group>"; };
-		AA26610A25EF46E70041D46E /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/IntExtensions.swift; sourceTree = "<group>"; };
-		AA26610B25EF46E70041D46E /* NumberToWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberToWords.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/NumberToWords.swift; sourceTree = "<group>"; };
-		AA26610C25EF46E70041D46E /* AutoFillTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoFillTextField.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/AutoFillTextField.swift; sourceTree = "<group>"; };
-		AA26610D25EF46E70041D46E /* Queues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queues.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/Queues.swift; sourceTree = "<group>"; };
-		AA26611625EF475C0041D46E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/Utilities.swift; sourceTree = "<group>"; };
+		AA26611D25EF4D060041D46E /* CancelableClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CancelableClosure.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/CancelableClosure.swift; sourceTree = "<group>"; };
+		AA26611F25EF4D060041D46E /* FileSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileSystem.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/FileSystem.swift; sourceTree = "<group>"; };
+		AA26612025EF4D060041D46E /* AutoFillTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AutoFillTextField.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/AutoFillTextField.swift; sourceTree = "<group>"; };
+		AA26612125EF4D060041D46E /* Queues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Queues.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/Queues.swift; sourceTree = "<group>"; };
+		AA26612225EF4D060041D46E /* NumberToWords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberToWords.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/NumberToWords.swift; sourceTree = "<group>"; };
+		AA26612325EF4D060041D46E /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/Utilities.swift; sourceTree = "<group>"; };
+		AA26612E25EF4D620041D46E /* Int-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int-Extension.swift"; path = "../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/Int-Extension.swift"; sourceTree = "<group>"; };
+		AA26613125EF51DB0041D46E /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor-Extension.swift"; path = "../../UtilitiesInSwiftPackage/Sources/UtilitiesInSwiftPackage/UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +88,14 @@
 		AA6D40FE25EF081300F19997 /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				AA26611625EF475C0041D46E /* Utilities.swift */,
-				AA26610C25EF46E70041D46E /* AutoFillTextField.swift */,
-				AA26610725EF46E70041D46E /* CancelableClosure.swift */,
-				AA26610925EF46E70041D46E /* FileSystem.swift */,
-				AA26610A25EF46E70041D46E /* IntExtensions.swift */,
-				AA26610B25EF46E70041D46E /* NumberToWords.swift */,
-				AA26610D25EF46E70041D46E /* Queues.swift */,
-				AA26610825EF46E70041D46E /* UIColorExtensions.swift */,
+				AA26613125EF51DB0041D46E /* UIColor-Extension.swift */,
+				AA26612E25EF4D620041D46E /* Int-Extension.swift */,
+				AA26612025EF4D060041D46E /* AutoFillTextField.swift */,
+				AA26611D25EF4D060041D46E /* CancelableClosure.swift */,
+				AA26611F25EF4D060041D46E /* FileSystem.swift */,
+				AA26612225EF4D060041D46E /* NumberToWords.swift */,
+				AA26612125EF4D060041D46E /* Queues.swift */,
+				AA26612325EF4D060041D46E /* Utilities.swift */,
 			);
 			path = Package;
 			sourceTree = "<group>";
@@ -181,17 +181,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA26611125EF46E70041D46E /* IntExtensions.swift in Sources */,
-				AA26611225EF46E70041D46E /* NumberToWords.swift in Sources */,
-				AA26611725EF475C0041D46E /* Utilities.swift in Sources */,
-				AA26611325EF46E70041D46E /* AutoFillTextField.swift in Sources */,
 				AA0EF86F25EEFB8E00627894 /* ViewController.swift in Sources */,
-				AA26610E25EF46E70041D46E /* CancelableClosure.swift in Sources */,
+				AA26612525EF4D060041D46E /* CancelableClosure.swift in Sources */,
+				AA26612825EF4D060041D46E /* AutoFillTextField.swift in Sources */,
 				AA0EF86B25EEFB8E00627894 /* AppDelegate.swift in Sources */,
 				AA0EF86D25EEFB8E00627894 /* SceneDelegate.swift in Sources */,
-				AA26611425EF46E70041D46E /* Queues.swift in Sources */,
-				AA26611025EF46E70041D46E /* FileSystem.swift in Sources */,
-				AA26610F25EF46E70041D46E /* UIColorExtensions.swift in Sources */,
+				AA26612A25EF4D060041D46E /* NumberToWords.swift in Sources */,
+				AA26612F25EF4D620041D46E /* Int-Extension.swift in Sources */,
+				AA26612725EF4D060041D46E /* FileSystem.swift in Sources */,
+				AA26612B25EF4D060041D46E /* Utilities.swift in Sources */,
+				AA26612925EF4D060041D46E /* Queues.swift in Sources */,
+				AA26613225EF51DB0041D46E /* UIColor-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
